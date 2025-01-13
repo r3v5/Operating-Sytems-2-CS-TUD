@@ -18,7 +18,7 @@ void First(int number) {
 int main(int argc, char **argv) {
     printf("--beginning of program\n");
 
-    if (argc != 3) {
+    if (argc != 4) {
         printf("Number of command-line arguments should be 3\n");
         printf("Exiting program...\n");
         exit(0);
